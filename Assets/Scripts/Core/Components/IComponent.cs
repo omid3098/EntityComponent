@@ -1,6 +1,5 @@
 using System.Collections.Generic;
-
-public interface IComponent
+[System.Serializable]
+public class IComponent
 {
-    List<ISystem> systems { get; set; }
 }
